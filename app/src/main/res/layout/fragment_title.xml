@@ -6,7 +6,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
         <fragment
-            android:id="@+id/titleFragment"
+            android:id="@+id/titleFragment2"
             android:name="com.example.newfirstapp.TitleFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
