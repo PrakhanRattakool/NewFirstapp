@@ -6,6 +6,6 @@
         android:id="@+id/titleConstraint"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#78A0A5"
+        android:background="#000000"
         tools:context=".TitleFragment"/>
 </layout>
