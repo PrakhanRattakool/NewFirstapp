@@ -15,6 +15,6 @@
         android:label="About" />
     <fragment
         android:id="@+id/contactFragment"
-        android:name="com.example.newfirstapp.ContactFragment"
+        android:name="com.example.newfirstapp.contact.ContactFragment"
         android:label="Contact" />
 </navigation>
