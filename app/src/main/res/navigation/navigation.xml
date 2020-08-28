@@ -7,7 +7,7 @@
     <fragment
         android:id="@+id/titleFragment"
         android:name="com.example.newfirstapp.TitleFragment"
-        android:label="fragment_title"
+        android:label="MY SELF"
         tools:layout="@layout/fragment_title" />
     <fragment
         android:id="@+id/aboutFragment"

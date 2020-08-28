@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
@@ -12,7 +13,6 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#000000"
         tools:context=".contact.ContactFragment">
 
         <!-- TODO: Update blank fragment layout -->
@@ -22,31 +22,35 @@
             android:orientation="vertical">
 
             <EditText
-                android:id="@+id/editTextTextPersonName"
+                android:id="@+id/TextName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:hint="Username"
                 android:inputType="text" />
 
             <EditText
-                android:id="@+id/editTextTextPersonPhone"
+                android:id="@+id/TextPhone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="text" />
+                android:hint="Phone"
+                android:inputType="phone" />
 
             <Button
                 android:id="@+id/buttonInsert"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="@{()->contactViewModel.onContactAdd()}"
-                android:text="Button" />
+                android:text="SUBMIT" />
 
             <TextView
                 android:id="@+id/textview"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@{contactViewModel.contactString}" />
+                android:text="@{contactViewModel.contactString}"
+                android:textColor="@android:color/black" />
+
 
         </LinearLayout>
 

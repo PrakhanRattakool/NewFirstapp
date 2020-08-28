@@ -9,7 +9,6 @@ import androidx.room.Query
 interface ContactDao {
     @Insert
     fun insert(contact: Contact)
-
     @Query("SELECT * from contact_table")
     fun get(): LiveData<List<Contact>>
 }
